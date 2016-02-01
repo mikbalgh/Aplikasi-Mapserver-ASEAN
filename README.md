@@ -6,11 +6,11 @@ Aplikasi ini bertujuan untuk memenuhi salah satu syarat nilai Tugas Besar Mataku
 
 Disusun oleh :
 
-- M Ikbal Ghiffary - 1134043
-- Rizki Dimas Pratama - 1134075
+- Dea Ditawijaya - 1134051
 - Eric Dwi Pamungkas  -1134077
 - Fazhar Raspati - 1134072
-- Dea Ditawijaya - 1134051
+- M Ikbal Ghiffary - 1134043
+- Rizki Dimas Pratama - 1134075
   
 
 # Cara penggunaan
