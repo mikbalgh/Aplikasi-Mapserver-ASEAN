@@ -14,3 +14,10 @@ MAP
     TYPE POLYGON
     STATUS DEFAULT
     DATA thai
+
+    CLASS
+       STYLE
+         OUTLINECOLOR 128 128 128
+         COLOR 225 225 185
+       END
+    END
