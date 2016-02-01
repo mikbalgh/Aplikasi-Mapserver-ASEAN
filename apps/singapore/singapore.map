@@ -19,3 +19,5 @@ MAP
     DATA singapore_osm_line
  CLASS
        STYLE
+        OUTLINECOLOR 128 128 128
+        COLOR 225 225 185
