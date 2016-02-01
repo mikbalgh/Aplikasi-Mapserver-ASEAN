@@ -1,6 +1,7 @@
 #
 # Map Demo
 #
+
 MAP
   NAME ITASCA
   STATUS ON
@@ -9,7 +10,7 @@ MAP
   IMAGETYPE PNG
   SHAPEPATH "data"
   IMAGECOLOR 255 255 255
- 
+  
   IMAGETYPE PNG 
   
   LAYER
@@ -24,12 +25,12 @@ MAP
          COLOR 225 225 185
        END
     END
-   METADATA
+   
+    METADATA
       WMS_TITLE "DEMO TAKEN FROM ITASCA"
       WMS_ABSTRACT "DEMO TAKEN FROM ITASCA"
       WMS_SRS "EPSG:26915"
     END
   END
-
    
 END # Map File
