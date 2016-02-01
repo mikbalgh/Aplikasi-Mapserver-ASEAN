@@ -14,6 +14,7 @@ Disusun oleh :
 # Cara penggunaan
 
 - Download as ZIP untuk mendownload semua file
+- Alternatif download https://goo.gl/relnhh
 - Lalu simpan di C:/MS4W/Apache/htdocs/asean/
 - lalu untuk folder yang bernama "Apps" keluarkan semua isi datanya lalu simpan di C:/MS4W/apps/
 - Pada aplikasi ini menggunakan port 81 untuk localhostnya
