@@ -18,3 +18,10 @@ MAP
     TYPE POLYGON
     STATUS DEFAULT
     DATA phl
+
+    CLASS
+       STYLE
+         OUTLINECOLOR 128 128 128
+         COLOR 225 225 185
+       END
+    END
