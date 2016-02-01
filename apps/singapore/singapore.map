@@ -15,3 +15,5 @@ MAP
   LAYER
     NAME DEMOLAYER
     TYPE LINE
+    STATUS DEFAULT
+    DATA singapore_osm_line
