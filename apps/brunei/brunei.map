@@ -23,3 +23,8 @@ MAP
          COLOR 225 225 185
        END
     END
+  LAYER
+    NAME DEMOLAYER
+    TYPE POLYGON
+    STATUS DEFAULT
+    DATA brunei2
