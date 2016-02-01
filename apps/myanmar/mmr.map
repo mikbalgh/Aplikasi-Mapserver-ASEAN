@@ -20,7 +20,7 @@ MAP
     STATUS DEFAULT
     DATA mmr
 
-    CLASS
+    
        STYLE
          OUTLINECOLOR 128 128 128
          COLOR 225 225 185
