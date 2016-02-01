@@ -11,3 +11,9 @@ Disusun oleh :
   5. Dea Ditawijaya - 1134051
   
 
+# Cara penggunaan
+
+- Download as ZIP untuk mendownload semua file
+- Lalu simpan di C:/MS4W/Apache/htdocs/asean/
+- lalu untuk folder yang bernama "Apps" keluarkan semua isi datanya lalu simpan di C:/MS4W/apps/
+- Pada aplikasi ini menggunakan port 81 untuk localhostnya
