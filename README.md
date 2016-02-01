@@ -23,3 +23,6 @@ Disusun oleh :
 
 # Video Tutorial
 https://www.youtube.com/watch?v=SYEMWueV5tQ&list=PLU-UBMn7ZVOOPTXxMcGHgVAguq7ZoHpMC
+
+# GitBook
+https://www.gitbook.com/book/fazharraspati/sistem-informasi-geografis-pada-ibukota-negara-as/
