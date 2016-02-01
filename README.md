@@ -17,3 +17,6 @@ Disusun oleh :
 - Lalu simpan di C:/MS4W/Apache/htdocs/asean/
 - lalu untuk folder yang bernama "Apps" keluarkan semua isi datanya lalu simpan di C:/MS4W/apps/
 - Pada aplikasi ini menggunakan port 81 untuk localhostnya
+
+# Video Tutorial
+https://www.youtube.com/watch?v=SYEMWueV5tQ&list=PLU-UBMn7ZVOOPTXxMcGHgVAguq7ZoHpMC
