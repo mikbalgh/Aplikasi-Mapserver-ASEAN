@@ -40,3 +40,4 @@ MAP
       WMS_SRS "EPSG:26915"
     END
   END
+END # Map File
