@@ -49,6 +49,7 @@ if (typeof jQuery === 'undefined') {
 
     return false // explicit for ie8 (  ._.)
   }
+
   // http://blog.alexmaccaw.com/css-transitions
   $.fn.emulateTransitionEnd = function (duration) {
     var called = false
@@ -133,6 +134,8 @@ if (typeof jQuery === 'undefined') {
         .emulateTransitionEnd(Alert.TRANSITION_DURATION) :
       removeElement()
   }
+
+
   // ALERT PLUGIN DEFINITION
   // =======================
 
@@ -241,6 +244,7 @@ if (typeof jQuery === 'undefined') {
     }
   }
 
+
   // BUTTON PLUGIN DEFINITION
   // ========================
 
@@ -287,7 +291,6 @@ if (typeof jQuery === 'undefined') {
     })
 
 }(jQuery);
-
 
 /* ========================================================================
  * Bootstrap: carousel.js v3.3.6
@@ -459,6 +462,8 @@ if (typeof jQuery === 'undefined') {
 
     return this
   }
+
+
   // CAROUSEL PLUGIN DEFINITION
   // ==========================
 
@@ -800,7 +805,6 @@ if (typeof jQuery === 'undefined') {
     if ($this.is('.disabled, :disabled')) return
 
     var $parent  = getParent($this)
-
     var isActive = $parent.hasClass('open')
 
     clearMenus()
@@ -862,6 +866,8 @@ if (typeof jQuery === 'undefined') {
 
     $items.eq(index).trigger('focus')
   }
+
+
   // DROPDOWN PLUGIN DEFINITION
   // ==========================
 
@@ -1252,6 +1258,7 @@ if (typeof jQuery === 'undefined') {
 
 +function ($) {
   'use strict';
+
   // TOOLTIP PUBLIC CLASS DEFINITION
   // ===============================
 
@@ -1721,6 +1728,8 @@ if (typeof jQuery === 'undefined') {
       that.$viewport = null
     })
   }
+
+
   // TOOLTIP PLUGIN DEFINITION
   // =========================
 
@@ -1992,6 +2001,7 @@ if (typeof jQuery === 'undefined') {
       .removeClass('active')
   }
 
+
   // SCROLLSPY PLUGIN DEFINITION
   // ===========================
 
@@ -2147,6 +2157,48 @@ if (typeof jQuery === 'undefined') {
   }
 
 
+  // TAB PLUGIN DEFINITION
+  // =====================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.tab')
+
+      if (!data) $this.data('bs.tab', (data = new Tab(this)))
+      if (typeof option == 'string') data[option]()
+    })
+  }
+
+  var old = $.fn.tab
+
+  $.fn.tab             = Plugin
+  $.fn.tab.Constructor = Tab
+
+
+  // TAB NO CONFLICT
+  // ===============
+
+  $.fn.tab.noConflict = function () {
+    $.fn.tab = old
+    return this
+  }
+
+
+  // TAB DATA-API
+  // ============
+
+  var clickHandler = function (e) {
+    e.preventDefault()
+    Plugin.call($(this), 'show')
+  }
+
+  $(document)
+    .on('click.bs.tab.data-api', '[data-toggle="tab"]', clickHandler)
+    .on('click.bs.tab.data-api', '[data-toggle="pill"]', clickHandler)
+
+}(jQuery);
+
 /* ========================================================================
  * Bootstrap: affix.js v3.3.6
  * http://getbootstrap.com/javascript/#affix
@@ -2261,6 +2313,7 @@ if (typeof jQuery === 'undefined') {
     }
   }
 
+
   // AFFIX PLUGIN DEFINITION
   // =======================
 
@@ -2308,4 +2361,3 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
-
