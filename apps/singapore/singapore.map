@@ -17,3 +17,5 @@ MAP
     TYPE LINE
     STATUS DEFAULT
     DATA singapore_osm_line
+ CLASS
+       STYLE
